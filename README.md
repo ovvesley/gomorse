@@ -39,6 +39,7 @@ All official releases of this project are available on the Releases page.
 
 There you’ll find versioned builds, changelogs, and downloadable assets for each release. We recommend using the latest stable version for the best experience.
 
+To see all released [click here](https://github.com/ovvesley/gomorse/releases).
 
 ### Contribution
 
