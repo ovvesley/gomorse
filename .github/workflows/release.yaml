@@ -63,7 +63,7 @@ jobs:
           GOOS=linux GOARCH=amd64 go build -o /app/releases/bin/gomorse_\${VERSION}_linux_amd64 /app/main.go && \
           GOOS=linux GOARCH=arm64 go build -o /app/releases/bin/gomorse_\${VERSION}_linux_arm64 /app/main.go && \
           GOOS=windows GOARCH=amd64 go build -o /app/releases/bin/gomorse_\${VERSION}_windows_amd64.exe /app/main.go && \
-          GOOS=darwin GOARCH=amd64 go build -o /app/releases/bin/gomorse_\${VERSION}_darwin_amd64 /app/main.go
+          GOOS=darwin GOARCH=amd64 go build -o /app/releases/bin/gomorse_\${VERSION}_darwin_amd64 /app/main.go"
 
         
       
