@@ -12,7 +12,7 @@ func Encode(input string) string {
 		if morse, ok := alph.literalToMorse[charUpper]; ok {
 			result += morse + WHITE_SPACE_LITERAL
 		} else if charUpper == WHITE_SPACE_LITERAL {
-			result += WHITE_SPACE_MORSE
+			result = strings.TrimSuffix(result, WHITE_SPACE_LITERAL) + strings.Repeat(WHITE_SPACE_LITERAL, 3)
 		} else {
 			result += UNKNOWN + WHITE_SPACE_LITERAL
 		}
