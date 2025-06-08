@@ -47,7 +47,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: .devcontainer/dev.Dockerfile
+          file: .devcontainer/devcontainer.Dockerfile
           load: true
           tags: gomorse-builder:latest
           cache-from: type=gha
